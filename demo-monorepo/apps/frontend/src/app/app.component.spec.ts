@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
-import { LoginComponent } from './login/login.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent, LoginComponent, RouterModule.forRoot([])],
+      imports: [AppComponent, NxWelcomeComponent, RouterModule.forRoot([])],
     }).compileComponents();
   });
 
@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome demo-monorepo'
+      'Welcome frontend'
     );
   });
 
-  it(`should have as title 'demo-monorepo'`, () => {
+  it(`should have as title 'frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('demo-monorepo');
+    expect(app.title).toEqual('frontend');
   });
 });

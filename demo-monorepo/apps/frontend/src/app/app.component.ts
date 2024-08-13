@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { LoginComponent } from './login/login.component';
+
+import { LoginComponent } from "./login/login.component";
 
 @Component({
   standalone: true,
@@ -10,5 +11,5 @@ import { LoginComponent } from './login/login.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'demo-monorepo';
+  title = 'frontend';
 }
