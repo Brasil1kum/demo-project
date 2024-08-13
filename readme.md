@@ -1,47 +1,50 @@
-## Wilkommen zum Dynabase Ai-Workshop Demoprojekt
+# Willkommen zum Dynabase AI-Workshop Demoprojekt
 
-Ziel ist es eine Demo Anwendung mit Login, mithilfe von Ai-Tools, zu bauen. 
+Ziel dieses Projekts ist es, eine Demo-Anwendung mit Login-Funktionalität mithilfe von KI-Tools zu entwickeln.
 
-# Requirements
-* NVM - Node Version Manager https://github.com/nvm-sh/nvm
-* Unter Windows - WSL
-* VSCode
-
-# Themen
-* Erstellen von Frontend in Angular.
-* Scaffolding von Datenbank-Klasse mit hilfe von Prisma
-* Unittest
-
+## Themen
+* Erstellung eines Frontends mit Angular
+* Scaffolding von Datenbankklassen mit Prisma
+* Unittests
 * SQL-Optimierung
-* Semantische Suche im Code
-* Security in Webapps
-* Performance analyse 
+* Semantische Codesuche
+* Sicherheit in Webanwendungen
+* Performance-Analyse
 
-# User Stories 
+## Voraussetzungen
+* NVM - Node Version Manager (https://github.com/nvm-sh/nvm)
+* Unter Windows: WSL (Windows Subsystem for Linux)
+* Visual Studio Code
 
-- Als User möchte ich mich mit den Logininformationen 'admin' : 'admin' anmelden können.
-- Als User möchte ich eine Information bekommen wenn die Logindaten falsch sind.
-- Als User möchte ich mich Registrieren können und mit diesen mich anmelden können. 
-- Als User möchte ich mich auch nach einem Neustart des Servers wieder anmelden können.
-- Als User möchte ich mein Passwort ändern können.
+## User Stories
 
-- Als User möchte ich die Webseite auf Deutsch und Englisch anzeigen könne. (Optional)
+### Authentifizierung
+1. Als Benutzer möchte ich mich mit den Anmeldeinformationen 'admin' : 'admin' einloggen können.
+2. Als Benutzer möchte ich eine Benachrichtigung erhalten, wenn die Anmeldedaten falsch sind.
+3. Als Benutzer möchte ich mich registrieren und mit den erstellten Daten anmelden können.
+4. Als Benutzer möchte ich mich auch nach einem Neustart des Servers wieder anmelden können.
+5. Als Benutzer möchte ich mein Passwort ändern können.
 
-- Als User möchte ich einen Passwortvergessenflow triggern können. (Fortgeschritten)
+### Erweiterte Funktionen
+6. (Optional) Als Benutzer möchte ich die Webseite auf Deutsch und Englisch anzeigen können.
+7. (Fortgeschritten) Als Benutzer möchte ich einen Passwort-Vergessen-Prozess auslösen können.
 
+### Link-Shortener
+8. Als Benutzer möchte ich eine URL eingeben und eine verkürzte URL zurückerhalten können.
+9. Als Benutzer möchte ich über die verkürzte URL auf die ursprünglich eingegebene URL weitergeleitet werden.
 
-# Zum Projekt
-Zum leichteren reinfinden ist dieses Demoprojekt möglichst nah an eine C#-Solution angeleht. Wir haben ein Monorepo indem wie in eienr Solution mehrere Anwendung nebeneinander leben.
+## Projektstruktur
+Dieses Demo-Projekt ist an eine C#-Solution angelehnt, um den Einstieg zu erleichtern. Es handelt sich um ein Monorepo, in dem, ähnlich wie in einer Solution, mehrere Anwendungen nebeneinander existieren.
 
-# Weite LLMs
-* Claude by Antropic https://claude.ai/new (Limited free usage, best in class)
-* Codestral by Mistral https://mistral.ai/ (Code suggestions via VSCode plugin Continue)
+## Weitere KI-Modelle
+* Claude von Anthropic (https://claude.ai/new) - Begrenzte kostenlose Nutzung, beste Leistung seiner Klasse
+* Codestral von Mistral (https://mistral.ai/) - Code-Vorschläge über das VSCode-Plugin "Continue"
 
-# Tipps
-* Um im Copilot chat den context des aktuellen Projekts mitzugeben schreibt man @Workspace
-* Man kann in Tools wie chatgpt sich aus Bildern html generien lassen. 
+## Tipps
+* Um im Copilot-Chat den Kontext des aktuellen Projekts einzubeziehen, verwenden Sie @Workspace
+* In Tools wie ChatGPT können Sie HTML aus Bildern generieren lassen
 
-# Weitere Ressourcen 
-* Continue https://github.com/continuedev/continue Plugin zum einbinden von Copilot alternativen und selber gehosteten LLMs
-* LMSYS Chatbot Arena Leaderboard https://chat.lmsys.org/?leaderboard 
-* 🌸BigCodeBench Leaderboard https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard
+## Weitere Ressourcen
+* Continue (https://github.com/continuedev/continue) - Plugin zur Integration von Copilot-Alternativen und selbst gehosteten LLMs
+* LMSYS Chatbot Arena Leaderboard (https://chat.lmsys.org/?leaderboard)
+* 🌸BigCodeBench Leaderboard (https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
